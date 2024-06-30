@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Page</title>
+  <style>
+    .hidden { display: none; }
+    .focusable { outline: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Test Page</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Form Section</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section>
+      <h2>Images Section</h2>
+      <img src="image1.jpg" alt="">
+      <img src="image2.jpg" alt="An image description">
+    </section>
+    <section>
+      <h2>Links Section</h2>
+      <a href="http://example.com" class="focusable">Example</a>
+    </section>
+  </main>
+  <footer>
+    <p>Footer Information</p>
+  </footer>
+
+  <a href="#maincontent" class="hidden">Skip to main content</a>
+
+  <img src="decorative.jpg" alt="Decorative Image" title="Decorative Image">
+</body>
+</html>
